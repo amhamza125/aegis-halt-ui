@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from 'react';
 
-const TARGET_ADDRESS = "0xF2cac1f4331095767b8F7130AAc03cC23657AE4B";
-const GUARDIAN_ADDRESS = "0x9d1D4f815081103C3C12F17c3C54ee2dFF592adD";
+const TARGET_ADDRESS = "0xD5414C390d50c58ef103404d88278cD8D0AB0E0F";
+const GUARDIAN_ADDRESS = "0x6E7516F7E3E617552A91eD1E87Dc0E57090b5Bcf";
 
 export default function AegisHaltDashboard() {
   const [isSandbox, setIsSandbox] = useState(false);

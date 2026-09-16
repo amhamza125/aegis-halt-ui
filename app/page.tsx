@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from 'react';
 
-const TARGET_ADDRESS = "0x32b9Cb68c3CF4e046C7a19A3147e076e8D064476";
-const GUARDIAN_ADDRESS = "0xFc832406Ae1De8af6FacF35f2ebaeD6dC84F6288";
+const TARGET_ADDRESS = "0xF2cac1f4331095767b8F7130AAc03cC23657AE4B";
+const GUARDIAN_ADDRESS = "0x9d1D4f815081103C3C12F17c3C54ee2dFF592adD";
 
 export default function AegisHaltDashboard() {
   const [isSandbox, setIsSandbox] = useState(false);
@@ -66,7 +66,7 @@ export default function AegisHaltDashboard() {
             <h2 className="text-lg font-semibold text-slate-300 mb-4">Target Contract</h2>
             <div className="space-y-4">
               <div>
-                <div className="text-xs text-slate-500 uppercase">Deployment Address (Bradbury Testnet)</div>
+                <div className="text-xs text-slate-500 uppercase">Deployment Address (Studio Next 61997)</div>
                 <div className="text-sm break-all">{TARGET_ADDRESS}</div>
               </div>
               <div>
@@ -82,7 +82,7 @@ export default function AegisHaltDashboard() {
           <div className="bg-slate-800 p-6 rounded-lg border border-slate-700 shadow-xl flex flex-col justify-between">
             <div>
               <h2 className="text-lg font-semibold text-slate-300 mb-4">Guardian Node</h2>
-              <div className="text-xs text-slate-500 uppercase mb-1">Deployment Address (Bradbury Testnet)</div>
+              <div className="text-xs text-slate-500 uppercase mb-1">Deployment Address (Studio Next 61997)</div>
               <div className="text-sm break-all mb-6">{GUARDIAN_ADDRESS}</div>
             </div>
             

@@ -1,0 +1,1 @@
+CRITICAL ALERT: The DummyVault protocol has suffered a massive exploit. A reentrancy hack was just executed, draining all funds. DummyVault is actively compromised.
